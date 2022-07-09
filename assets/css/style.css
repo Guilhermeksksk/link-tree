@@ -1,5 +1,10 @@
+/*IMPORTANDO  FONTES*/
+
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Joan&family=Oswald&family=Trispace:wght@100;300&display=swap');
+
+
+/*PRINCIPAL*/
 body{
     margin: 0;
     padding: 0;
@@ -36,6 +41,9 @@ body.dark-blue{
     margin-left: 50px;
 }
 
+
+/*foto de perfil*/
+
 .profile-container img{
     width: 20%;
     border-radius: 100%;
@@ -46,6 +54,9 @@ body.dark-blue{
 .profile-container P{
     font-family: 'Trispace', sans-serif;
 }
+
+
+/*CONTAINER BUTTONS LINKS*/
 
 .link-container {
     display: flex;
@@ -78,6 +89,8 @@ li{
     color: var(--bg-hover);
     transition: 0.3ms;
 }
+
+/*RODAPE */
 
 footer{
     font-weight: bold;
